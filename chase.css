@@ -1,0 +1,20 @@
+.mainTable {
+	color: red;
+	background-color: antiquewhite;
+}
+
+.cancelButton {
+	background-color: red;
+}
+
+#name {
+	color: red;
+}
+
+label {
+	color: red !important;
+}
+
+body {
+	background-color: red !important;
+}
