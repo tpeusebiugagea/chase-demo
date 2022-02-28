@@ -1,14 +1,12 @@
-.mainTable {
-	color: red;
-	background-color: antiquewhite;
+tr {
+	position: relative;
+	padding-bottom: 14px;
+	display: flex;
+	flex-direction: column;
 }
 
-.cancelButton {
-	background-color: red;
-}
-
-label {
-	color: red !important;
+td {
+	display: block;
 }
 
 input {
