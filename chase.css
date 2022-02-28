@@ -26,6 +26,7 @@ select {
 	position: relative;
 	transition: 0.1s;
 	cursor: pointer;
+	background-color: #fff;
 }
 
 .completeButton {
@@ -45,9 +46,14 @@ select {
 	height: 50px;
 }
 
+.completeButton:hover {
+	background-color: #000;
+	color: #fff;
+}
+
 .cancelButton {
 	border: 2px solid #282a2e;
-	color: #fff;
+	color: black;
 	border-radius: 30px;
 	transition: background-color 0.2s, color 0.2s;
 	padding: 0 40px;
