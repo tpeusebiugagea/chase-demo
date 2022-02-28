@@ -7,14 +7,19 @@
 	background-color: red;
 }
 
-#name {
-	color: red;
-}
-
 label {
 	color: red !important;
 }
 
-body {
-	background-color: red !important;
+input {
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 50px;
+	padding: 0 20px;
+	color: #282a2e;
+	border: 1px solid #b1b3b3;
+	position: relative;
+	transition: 0.1s;
+	cursor: pointer;
 }
