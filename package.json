@@ -1,0 +1,12 @@
+{
+	"name": "chase-demo",
+	"version": "1.0.0",
+	"description": "Chase files",
+	"scripts": {
+		"start": "serve"
+	},
+	"dependencies": {
+		"serve": "^10.0.1"
+	},
+	"author": "tpeusebiugagea"
+}
