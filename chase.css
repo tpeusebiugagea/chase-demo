@@ -1,11 +1,11 @@
 body {
 	font-family: 'Frutiger', Lato, sans-serif;
 	font-size: 16px !important;
-	line-height: 24px;
+	line-height: 24px !important;
 }
 
-.mainTable {
-	display: flex;
+table.mainTable {
+	display: flex !important;
 }
 
 tr {
@@ -20,8 +20,10 @@ td {
 }
 
 label {
+	display: block;
 	width: 100%;
 	margin-bottom: 8px;
+	line-height: 24px;
 }
 
 input,
