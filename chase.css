@@ -10,6 +10,48 @@ body {
 
 .mainTable tbody {
 	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.creNameRow {
+	width: 100%;
+}
+
+.creAmountRow {
+	display: none;
+}
+
+.creNumberRow {
+	width: 100%;
+}
+
+.creCVV2Row {
+	width: 46%;
+	order: 1;
+}
+
+.creTypeRow {
+	width: 46%;
+	order: 2;
+}
+
+.creExpirationRow {
+	width: 46%;
+}
+
+.creExpirationRow td:last-of-type {
+	display: flex;
+}
+
+.creExpirationRow td:last-of-type label {
+	display: none;
+}
+
+.creButtonRow {
+	width: 100%;
+	order: 2;
 }
 
 tr {
