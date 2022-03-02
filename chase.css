@@ -4,8 +4,12 @@ body {
 	line-height: 24px !important;
 }
 
-table.mainTable {
+.mainTable {
 	display: flex !important;
+}
+
+.mainTable tbody {
+	width: 100%;
 }
 
 tr {
@@ -42,7 +46,7 @@ select {
 }
 
 .creCVV2WhatLink {
-	display: none;
+	display: none !important;
 }
 
 .completeButton {
