@@ -15,8 +15,18 @@ body {
 	justify-content: space-between;
 }
 
+label::after {
+	content: '*';
+	color: #a32a2e;
+}
+
 .creNameRow {
 	width: 100%;
+}
+
+.creNameRow label::after {
+	content: '*';
+	color: #a32a2e;
 }
 
 .creAmountRow {
@@ -27,9 +37,19 @@ body {
 	width: 100%;
 }
 
+.creNumberRow label::after {
+	content: '*';
+	color: #a32a2e;
+}
+
 .creCVV2Row {
 	width: 46%;
 	order: 1;
+}
+
+.creCVV2Row label::after {
+	content: '*';
+	color: #a32a2e;
 }
 
 .creTypeRow {
@@ -37,8 +57,18 @@ body {
 	order: 2;
 }
 
+.creTypeRow label::after {
+	content: '*';
+	color: #a32a2e;
+}
+
 .creExpirationRow {
 	width: 46%;
+}
+
+.creExpirationRow label::after {
+	content: '*';
+	color: #a32a2e;
 }
 
 .creExpirationRow td:last-of-type {
